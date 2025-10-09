@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VPN အသုံးပြုပုံ</title>
+  <style>
+    body {
+      font-family: "Noto Sans Myanmar", sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.8;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    h1, h2 {
+      color: #38bdf8;
+      text-align: center;
+    }
+
+    .section {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Header background overlay */
+    .section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+      background: linear-gradient(rgba(15,23,42,0.85), rgba(30,41,59,0.95)), 
+                  url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1200&q=80');
+      background-size: cover;
+      background-position: center;
+      border-radius: 12px 12px 0 0;
+      z-index: 0;
+    }
+
+    .section h2 {
+      position: relative;
+      z-index: 1;
+      margin-top: 0;
+      padding-top: 15px;
+    }
+
+    /* ✅ Card design for each content block */
+    .card {
+      background: #334155;
+      padding: 15px 20px;
+      border-radius: 10px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      transition: 0.3s ease;
+      box-shadow: inset 0 0 10px rgba(255,255,255,0.05), 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    .card:hover {
+      background: #3b4252;
+      transform: translateY(-3px);
+    }
+
+    ol {
+      padding-left: 25px;
+      margin: 0;
+    }
+
+    .note {
+      background: #1e293b;
+      padding: 15px 20px;
+      border-radius: 12px;
+      border-left: 4px solid #facc15;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+
+    /* Download Section */
+    .download {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .download img {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    }
+    .download a {
+      display: inline-block;
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .download a:hover {
+      background: #0ea5e9;
+    }
+
+    /* Snow Effects Styles */
+    .snowflake {
+      position: fixed;
+      top: -10px;
+      color: white;
+      font-size: 1em;
+      user-select: none;
+      pointer-events: none;
+      z-index: 1000;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📘 VPN အသုံးပြုပုံ</h1>
+
+  <!-- အသစ်၀ယ်ယူသူများအတွက် -->
+  <div class="section">
+    <h2>အသစ်၀ယ်ယူသူများအတွက်</h2>
+    <div class="card">
+      <ol>
+        <li>VPN ဆော့ဝဲကို ကူးပါ။</li>
+        <li>ဆော့ဝဲထဲ၀င်တဲ့ချိန် အင်တာနက် ခဏလိုပါတယ် ဖိုင်တွေပေါ်အောင်။</li>
+        <li>ညာဘက်ထိပ်က ကြယ်လေးထဲမှာ <b>Device ID</b> ရှိပါတယ်။ Copy ယူပြီး Messenger မှာပို့ပေးပါ။</li>
+        <li>Member ၀င်ပြီးရင် VPN ကို Exit နဲ့ ပြန်ထွက်ပါ။</li>
+        <li>ပြန်၀င်တဲ့အချိန် အင်တာနက် ခဏရှိရမယ်၊ အဲ့တစ်ချိန် အလိုအလျောက် member ၀င်ပါပြီ။</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- သက်တမ်းတိုးသူများအတွက် -->
+  <div class="section">
+    <h2>သက်တမ်းတိုးသူများအတွက်</h2>
+    <div class="card">
+      <ol>
+        <li>ID ကို Copy ယူပြီး ပို့ပေးပါ။</li>
+        <li>ကျနော်ဘက်က Date ပို့ပြီးရင် ညာဘက်ထိပ်က မျှားအစိမ်းကွေးလေးကို နှိပ်ပါ (အင်တာနက် ခဏလိုပါတယ်နော်)။</li>
+        <li>ပြီးရင် Date 📅 ကို စစ်ကြည့်ပါ။</li>
+        <li>Date 📅 ပြောင်းသွားရင် ရပါပြီ။</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- မှတ်ချက် -->
+  <div class="section">
+    <h2>📌 မှတ်ချက်</h2>
+    <div class="card">
+      <p>
+        အသစ်၀ယ်သူဖြစ်ဖြစ်၊ သက်တမ်းတိုးသူဖြစ်ဖြစ် 
+        နောက်ဆုံး Version မကူးထားရင် <b>ပြန်ကူးပါ</b>။
+        ကူးပြီးသွားရင်တော့ မလိုပါဘူး။
+      </p>
+    </div>
+  </div>
+
+  <!-- Download -->
+  <div class="download">
+    <img src="https://raw.githubusercontent.com/JHKVPN/VIP/main/image/j.png" alt="JK VIP VPN Logo">
+    <br>
+    <a href="https://github.com/THANDARLIN2015/JKVPN/releases/download/V2.2.0/JK.VIP.VPN_2.2.0.apk" target="_blank">📥 Download JK VIP VPN APK</a>
+  </div>
+
+  <footer>
+    🙏🏿 အားပေးသူများအားလုံးကို ကျေးဇူးတင်ပါတယ်ဗျ 🙏🏿
+  </footer>
+
+  <script>
+    // Snow effects JavaScript
+    function createSnowflake() {
+      const snowflake = document.createElement('div');
+      snowflake.classList.add('snowflake');
+      snowflake.innerHTML = '❄';
+      
+      snowflake.style.left = Math.random() * 100 + 'vw';
+      const size = Math.random() * 10 + 10;
+      snowflake.style.fontSize = size + 'px';
+      snowflake.style.opacity = Math.random() * 0.6 + 0.4;
+      
+      document.body.appendChild(snowflake);
+      
+      const duration = Math.random() * 10 + 10;
+      const endPosition = 100 + Math.random() * 10;
+      
+      snowflake.animate([
+        { transform: 'translateY(0px) rotate(0deg)', opacity: snowflake.style.opacity },
+        { transform: `translateY(${endPosition}vh) rotate(360deg)`, opacity: 0 }
+      ], {
+        duration: duration * 1000,
+        easing: 'linear'
+      }).onfinish = () => {
+        snowflake.remove();
+      };
+    }
+    
+    setInterval(createSnowflake, 300);
+    for (let i = 0; i < 20; i++) {
+      setTimeout(createSnowflake, i * 150);
+    }
+  </script>
+
+</body>
+</html>
